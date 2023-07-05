@@ -14,5 +14,5 @@ New York University Libraries Finding Aids Redesign project.
   * System Overview
   * link to `EAD` package repo
   * link to `FASB` repo
-  * link to `FAB` repo
   * link to `Hugo` templates
+  * link to `FAB` repo
