@@ -4,7 +4,7 @@ This repository contains documentation related to the
 New York University Libraries finding aids publication system.
 
 ### User Documentation for Archivists
-* EAD validation criteria required for publishing
+* [EAD validation criteria required for publishing] (docs/EADvalidationcriteria.md)
 * EAD Publisher - explains how to publish a finding aid
 * EAD data mapping - explains how EAD data is mapped to HTML
 * Treatment for digital object roles
