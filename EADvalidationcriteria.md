@@ -1,1 +1,0 @@
-# EAD Validation Criteria
