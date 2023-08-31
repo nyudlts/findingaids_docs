@@ -1,6 +1,6 @@
 # Finding Aids System Overview
 
-![](./fa-workflow-v0_2_1.png)
+![](./fa-system-overview-v0_3_0.png)
 
 #### Sequence
 * the Archivist...
@@ -19,8 +19,8 @@
     * if the EAD passes validation, the EAD Publisher...
       * names the uploaded EAD file `<eadid>.xml`, e.g., `mss_208.xml`
       * calls the `FASB` to generate the `JSON` files required by `Hugo`
-      * calls `Hugo`to generate the finding aid
-      * returns links to the EAD and the preview finding aid to the Archivist
+      * calls `Hugo` to generate the finding aid
+      * provides links to the EAD and the preview finding aid on the EAD Publisher home screen
 
 * the Archivist...
   * reviews the preview finding aid and/or EAD
@@ -34,7 +34,7 @@
       * then the EAD Publisher calls the `deploy` script that...
         * removes the outdated finding aid from the AWS S3 bucket
         * copies the new finding aid to the AWS S3 bucket
-        * invalidates the URLs for the finding aid in the AWS CloudFront CDN
+        * invalidates the URLs for the finding aid in the AWS CloudFront Content Delivery Network
         * enqueues a Git Transactor (GT) `add` task for the EAD
         * returns to the EAD Publisher home screen
 
